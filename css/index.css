@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+#navbarSupportedContent > div > button {
+    color:rgb(165, 28, 28) !important;
+}
+body {
+    font-family: "cairoFont", Arial, sans-serif;
+    background-color: #000000;
+}
+a {
+    color:#000;
+    text-decoration: none !important;
+}
+
+input:checked+span {
+    color:rgb(165, 28, 28) !important;
+}
+span {
+    color:white;
+}
+.card {
+    background-color: #000;
+    color:white;
+}
+a {
+    color: white !important;
+}
+p {
+    color: white;
+ }
+
+ h1 {
+    color: white;
+ }
+
+ h2 {
+    color: white;
+ }
+ h3 {
+    color: white;
+ }
+ h4 {
+    color: white;
+ }
+ 
+
+button {
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(165, 28, 28) !important;
+}
+button:hover {
+    color: #fff !important;
+    background-color: rgb(165, 28, 28) !important;
+}
+.card-body {
+    min-width: 0;
+}
+.card .card-horizontal .card-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#top-menu .bg-light {
+    background-color: #000000 !important;
+}
+
+nav i.fa-bars {
+    color:rgb(165, 28, 28);
+}
+
+#top-menu .video-icon {
+    background-color: rgb(165, 28, 28);
+    color: #fff;
+    border-radius: 15%;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .active>.nav-link {
+    color: #fff;
+    background-color: rgb(165, 28, 28);
+}
+.navbar .login {
+    color: rgb(165, 28, 28);
+}
+.modal .modal-header .close:hover {
+    color: rgb(165, 28, 28) !important;
+    background-color: transparent !important;
+}
+input.form-control:focus,
+button:focus {
+    box-shadow: none !important;
+}
+.card .card-icons {
+    position: relative;
+}
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 3px;
+}
+.card .fa-play {
+    position: absolute;
+    top: 43%;
+    right: 45%;
+    color:#2c3131c7;
+    display: none;
+}
+.card:hover .fa-play {
+    display: inline;
+}
+.card:hover {
+    transform: translateY(-.9%);
+}
+.card {
+    transition: transform .5s;
+}
+.card .card-title {
+    height: 50px;
+    overflow: hidden;
+}
+#top-menu .fa-bars {
+    cursor: pointer;
+}
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%; 
+    background-color: #000000;
+    overflow: hidden; 
+    padding-bottom: 60px;
+}
+
+.sidebar:hover {
+    overflow-y: scroll;
+}
+
+.sidebar {
+    background-color: gray;
+}
+.sidebar a {
+    background-color:gray;
+}
+
+.sidebar .purple {
+    color:rgb(0, 0, 0);
+}
+
+.sidebar .list-group-item:hover {
+    color:#ffffff;
+    background-color: rgb(165, 28, 28);
+}
+
+.sidebar .list-group-item:hover .purple {
+    color:#ffffff;
+}
+
+.sidebar i {
+    color:rgb(165, 28, 28) !important;
+}
+
+.container .row .row .filter-column {
+    color: white !important;
+}
+
+body > div.search-header.pt-5 > div > div.row.mt-4 > div > div {
+    color: white;
+}
+
+body > div.search-header.pt-5 > div > div:nth-child(1) > div:nth-child(1) {
+    color: white;
+}
+.sidebar .list-group-item {
+    width: 17rem;
+}
+
+#wrap.toggled .sidebar {
+    right: 0rem;
+}
+
+.sidebar::-webkit-scrollbar {
+    background: rgb(0, 0, 0);
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    width:8px;
+}
+
+.layer {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+.navbar .search-icon {
+    color: rgb(165, 28, 28);
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    display: none;
+}
+.navbar .search-icon:hover {
+    color: #ffffff;
+    background-color: rgb(165, 28, 28);
+}
+
+#loginModal > div > div > div.modal-footer > button {
+    color:rgb(165, 28, 28) !important;
+}
+
+label {
+    color:rgb(165, 28, 28) !important;
+}
+
+h5 {
+    color: rgb(165, 28, 28);
+}
+
+.search-input {
+    position: fixed;
+    top: 72px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus {
+    background-color: #efeeee;
+}
+
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+@media (max-width: 1115px) {
+    .navbar .collapse .form-inline {
+        display: none;
+    }
+    .navbar .search-icon {
+        display: inline;
+    }
+}
+
+@media (min-width: 1115px) {
+    .search-input {
+        display: none !important;
+    }
+}

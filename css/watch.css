@@ -1,0 +1,120 @@
+body {
+    background-color: #090702;
+}
+button {
+    color: rgb(165, 28, 28) !important;
+    border-color: rgb(165, 28, 28) !important;
+}
+#top-menu .video-icon {
+    color: rgb(0, 0, 0);
+    background-color:rgb(165, 28, 28);
+}
+a.login {
+    color: rgb(165, 28, 28) !important;
+}
+#top-menu .bg-light {
+    background-color: #090702 !important;
+    color:white;
+}
+
+#top-menu li a {
+    color:white !important;
+}
+
+#top-menu li a {
+    background-color: rgb(165, 28, 28);
+}
+.card:hover {
+    transform: translateY(0%);
+    background-color:  #090702 !important;
+}
+
+.card {
+    background-color:  #090702 !important;
+}
+
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    background-color:  #090702 !important;
+}
+.watch-icons i:hover {
+    cursor: pointer;
+
+ }
+
+ p {
+    color: white;
+ }
+
+ h1 {
+    color: white;
+ }
+
+ h2 {
+    color: white;
+ }
+ h3 {
+    color: white;
+ }
+ h4 {
+    color: white;
+ }
+
+
+ .watch-page #more {
+    display: none;
+    background-color:  #090702 !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.card-inner {
+    display: none;
+    background-color:  #090702 !important;
+}
+
+.public-comment .card .btn {
+    background-color: rgb(165, 28, 28);
+    border-color: rgb(165, 28, 28);
+    color: #fff;
+    background-color:  #090702 !important;
+}
+.public-comment .card .btn:hover {
+    background-color: rgb(165, 28, 28);
+}
+
+time {
+    left: 24px !important;
+    background-color:  #090702 !important;
+}
+
+.watch-page .fa-play {
+    right: 46% !important;
+    background-color:  #090702!important;
+
+}
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+    .fa-play {
+        font-size: 20px !important;
+    }
+}
+@media (max-width: 1062px) {
+
+    #myBtn {
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 570px) {
+
+    .reply-time {
+        font-size: 10px;
+    }
+}
